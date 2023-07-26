@@ -7,7 +7,6 @@ export const Container = styled.div`
   height: 50px;
   box-sizing: border-box;
   border-radius: 50px;
-  border: 4px solid ${COLOR.fourth};
   padding: 5px;
   background: "#222831";
   transition: all 0.5s;
@@ -20,9 +19,6 @@ export const Container = styled.div`
     hover &&
     css`
       width: 20%;
-      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.74);
-      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.74);
-      border: 4px solid ${COLOR.fifth}};
     `}
 `;
 export const SearchInput = styled.input`
