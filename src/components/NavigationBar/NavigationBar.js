@@ -3,7 +3,9 @@ import logo from "../../assets/img/Logo.png";
 export default function NavigationBar() {
   return (
     <>
-      <img src={logo} alt="logo" className="logo" />
+      <div id="img">
+        <img src={logo} alt="logo" className="logo" />
+      </div>
       <nav>
         <div>
           <span>Home</span>
