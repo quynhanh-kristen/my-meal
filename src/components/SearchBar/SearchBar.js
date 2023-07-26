@@ -26,7 +26,9 @@ export default function SearchBar({ className }) {
         showSearchInput={showSearchInput}
         placeholder="Enter recipes, dish, meal,..."
       />
-      {showSearchInput ? <></> : <IconMagnifyingGlass />}
+      <div id="search-icon">
+        {showSearchInput ? <></> : <IconMagnifyingGlass />}
+      </div>
     </Container>
   );
 }
