@@ -1,0 +1,32 @@
+@import "../../styles/colors.scss";
+
+.header {
+  background-color: var(--third);
+  text-align: center;
+  padding-bottom: 2.2vh;
+}
+
+.header img {
+  margin-top: 53px;
+  position: inherit;
+  margin-bottom: 11px;
+}
+
+.search-bar {
+  margin-top: 27px;
+  margin-right: 24px;
+  display: flex;
+  float: right;
+}
+
+.search-container {
+  height: 20vh;
+}
+
+.login-button {
+  margin-top: 27px;
+  margin-right: 37px;
+  display: flex;
+  float: right;
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+@import "../../styles/colors.scss";
+
+#button {
+  width: fit-content;
+  color: var(--fourth);
+  background-color: var(--third);
+  box-shadow: none;
+  gap: 12px;
+  align-items: center;
+  border: none;
+  padding: 12px 14px;
+
+  &:hover {
+    background-color: var(--sixteenth);
+  }
+}

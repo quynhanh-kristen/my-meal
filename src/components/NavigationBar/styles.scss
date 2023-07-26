@@ -1,0 +1,15 @@
+@import "../../styles/colors.scss";
+@import "../../styles/font-sizes.scss";
+
+span {
+  margin-left: 3vw;
+  color: var(--fourth);
+  font-weight: var(--Bold500);
+  padding: 0.2vw 0.4vw;
+
+  &:hover {
+    background-color: var(--fourth);
+    color: var(--third);
+    border-radius: 5px;
+  }
+}
