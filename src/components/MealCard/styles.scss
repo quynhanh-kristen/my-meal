@@ -1,6 +1,15 @@
 @import "../../styles/colors.scss";
 @import "../../styles/font-sizes.scss";
 
+$card_height: 100;
+$card_weight: 200;
+$text_padding_top: 30;
+
+.card {
+  height: calc($card_height / 16) + rem;
+  width: calc($card_weight / 16) + rem;
+}
+
 .card-overlay {
   position: absolute;
   top: 0;
@@ -22,5 +31,5 @@
   color: var(--white);
   font-weight: var(--Bold700);
   text-align: center;
-  padding-top: 6vh;
+  padding-top: calc($text_padding_top / 16) + rem;
 }

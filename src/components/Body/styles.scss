@@ -1,0 +1,5 @@
+$meal_list_margin_top: 58;
+
+.meal-list {
+  padding-top: calc($meal_list_margin_top / 16) + rem;
+}
